@@ -26,7 +26,7 @@ import * as readline from "fwl-readline";
 
 We decided to simplify the initial API of the readline package. For this reason, we only export the `createInterface` function.
 
-This functions takes an `object` parameter with to keys:
+This function takes an `object` parameter with two keys:
 - `input`: generally the `process.stdin`
 - `output`: generally the `process.stdout`
 
